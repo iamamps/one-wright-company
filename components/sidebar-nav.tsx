@@ -75,9 +75,12 @@ export function MobileHeader() {
               <Menu className="h-6 w-6" />
             </button>
           </SheetTrigger>
-          <SheetContent side="left" className="w-[85vw] max-w-sm p-0">
+          <SheetContent
+            side="left"
+            className="w-[85vw] max-w-sm p-0 bg-white opacity-100 shadow-2xl"
+          >
             <SheetTitle className="sr-only">Main menu</SheetTitle>
-            <div className="flex items-center justify-between p-5 border-b border-[#fff2c9]">
+            <div className="flex items-center justify-between p-5 border-b border-[#fff2c9] bg-white">
               <BrandMark compact />
               <button
                 aria-label="Close menu"
@@ -87,10 +90,10 @@ export function MobileHeader() {
                 <X className="h-5 w-5" />
               </button>
             </div>
-            <div className="p-4">
+            <div className="p-4 bg-white">
               <NavLinks onNavigate={() => setOpen(false)} />
             </div>
-            <div className="p-5 border-t border-[#fff2c9] space-y-2 text-sm text-slate-500">
+            <div className="p-5 border-t border-[#fff2c9] space-y-2 text-sm text-slate-500 bg-white">
               <a href="tel:317-426-7790" className="flex items-center gap-2">
                 <Phone className="h-4 w-4" /> 317-426-7790
               </a>

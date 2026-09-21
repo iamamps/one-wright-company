@@ -9,6 +9,28 @@
   --owc-yellow-dark: #f4a90a;
   --font-display: "Baloo 2", sans-serif;
   --font-body: "Nunito Sans", sans-serif;
+
+  /* shadcn/ui base theme tokens (required so bg-background, bg-popover, etc. render solid) */
+  --background: 60 33% 99%;
+  --foreground: 215 25% 20%;
+  --card: 0 0% 100%;
+  --card-foreground: 215 25% 20%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 215 25% 20%;
+  --primary: 200 68% 55%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 46 100% 62%;
+  --secondary-foreground: 215 25% 20%;
+  --muted: 210 40% 96%;
+  --muted-foreground: 215 16% 47%;
+  --accent: 199 80% 94%;
+  --accent-foreground: 200 68% 30%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 214 32% 91%;
+  --input: 214 32% 91%;
+  --ring: 200 68% 55%;
+  --radius: 0.75rem;
 }
 
 html {
