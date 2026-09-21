@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --owc-blue: #4fb3e8;
+  --owc-blue-dark: #1c7fb8;
+  --owc-yellow: #ffd23f;
+  --owc-yellow-dark: #f4a90a;
+  --font-display: "Baloo 2", sans-serif;
+  --font-body: "Nunito Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+::selection {
+  background: var(--owc-yellow);
+  color: #1c2b36;
+}
+
+.owc-gradient {
+  background: linear-gradient(135deg, #4fb3e8 0%, #7fd4f0 45%, #ffd23f 100%);
+}
+
+.owc-sun-texture {
+  background-image: radial-gradient(circle at 15% 20%, rgba(255, 210, 63, 0.35) 0, transparent 45%),
+    radial-gradient(circle at 85% 0%, rgba(79, 179, 232, 0.35) 0, transparent 50%);
+}
